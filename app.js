@@ -7,7 +7,7 @@ var bodyParser = require('body-parser') //body-parser是node.js 中间件，用�
 var connection = mysql.createConnection({ //使用createConnection方法创建一个表示与mysql数据库服务器之间连接的connection对象
   host     : 'localhost',
   user     : 'root',
-  password : 'Ilovestudy2much', //请自行设置
+  password : '******', //请自行设置
   database : 'testdb_01'
 });
 
